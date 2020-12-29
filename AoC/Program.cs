@@ -6,7 +6,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Day7.Part2());
+            Console.WriteLine(Day8.Part2());
         }
     }
 }
