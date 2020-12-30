@@ -111,12 +111,8 @@
                         min = Certificate[i];
                     }
                     sum += Certificate[i];
-                    for (int j = i +1; j < Certificate.Length; j++)
+                    for (int j = i + 1; j < Certificate.Length; j++)
                     {
-                        if (j == i)
-                        {
-                            max = Math.Max(max, min);
-                        }
                         min = Math.Min(min, Certificate[j]);
                         max = Math.Max(max, Certificate[j]);
                         sum += Certificate[j];
