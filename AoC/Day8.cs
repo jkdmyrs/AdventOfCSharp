@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
 
     public static class Day8
     {
@@ -48,7 +47,6 @@
             public int acc;
             private int _pc;
             private HashSet<Guid> _exHist;
-            private (Guid guid, int index) _problemInstr;
 
             public Program(string[] lines)
             {
